@@ -20,6 +20,19 @@ body::before {
   background: rgba(0,0,0,0.6);
   z-index: -1;
 }
+.language-switcher {
+  text-align: right;
+  margin: 10px;
+  font-size: 0.9em;
+}
+.language-switcher a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.language-switcher a:hover {
+  text-decoration: underline;
+}
 .background {
   background-image: url("data:image/webp;base64,UklGRoYAAABXRUJQVlA4WAoAAAAQAAAABwAABwAAQUxQSDIAAAABYktHRACIBR0AAAAgYktHRACIBR0AAAAgYktHRACIBR0AAAAgYktHRACIBR0AAABEY3JlYXRlZCB3aXRoIFBJTCAoUGlsbG93KQAA/////w==");
   filter: contrast(110%) brightness(90%);
