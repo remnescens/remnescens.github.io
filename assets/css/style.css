@@ -17,7 +17,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 1rem 0; /* Diminuí um pouco a altura */
+  padding: 1rem 0;
   backdrop-filter: blur(10px);
   background-color: rgba(26, 46, 53, 0.85);
   border-bottom: 1px solid rgba(191, 167, 106, 0.3);
@@ -34,7 +34,7 @@ header h1 {
 
 /* === Hero Section (O Impacto Visual) === */
 .hero {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
