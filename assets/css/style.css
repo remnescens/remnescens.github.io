@@ -68,7 +68,7 @@ header h1 {
 }
 
 /* === Seções de Texto (Teaser, About, etc) === */
-.teaser, .studio, .developer, .presskit, .subscription {
+.teaser, .studio, .developer, .social, .presskit, .subscription {
   max-width: 850px;
   margin: 4rem auto;
   padding: 2rem;
