@@ -63,6 +63,24 @@ header h1 {
   border-left: 4px solid #bfa76a;
   box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
 }
+.steam-cta {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(to bottom, rgba(26, 46, 53, 0.5), transparent);
+}
+
+.steam-button {
+  background-color: #1b2838;
+  color: #66c0f4;
+  border: 1px solid #66c0f4;
+  margin-top: 2rem;
+}
+
+.steam-button:hover {
+  background-color: #66c0f4;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(102, 192, 244, 0.4);
+}
 
 /* Estilização para o texto em itálico (Diálogos/Citações) */
 em {
