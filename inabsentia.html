@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remnescens</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+	  const userLang = navigator.language || navigator.userLanguage;
+	  if (userLang.startsWith("de")) { window.location.replace("/de/inabsentia.html"); }
+	  else if (userLang.startsWith("en")) { window.location.replace("/en/inabsentia.html"); }
+	  else if (userLang.startsWith("es")) { window.location.replace("/es/inabsentia.html"); }
+	  else if (userLang.startsWith("fr")) { window.location.replace("/fr/inabsentia.html"); }
+	  else if (userLang.startsWith("it")) { window.location.replace("/it/inabsentia.html"); }
+	  else if (userLang.startsWith("pl")) { window.location.replace("/pl/inabsentia.html"); }
+	  else if (userLang.startsWith("pt")) { window.location.replace("/pt/inabsentia.html"); } 
+	  else { window.location.replace("/en/inabsentia.html"); }
+	});
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>
+	  <a href="/de/inabsentia.html">Deutsch</a> | 
+	  <a href="/en/inabsentia.html">English</a> | 
+	  <a href="/es/inabsentia.html">Español</a> | 
+	  <a href="/fr/inabsentia.html">Français</a> | 
+	  <a href="/it/inabsentia.html">Italiano</a> | 
+	  <a href="/pl/inabsentia.html">Polski</a> | 
+	  <a href="/pt/inabsentia.html">Português</a>
+	</p>
+  </noscript>
+</body>
+</html>
