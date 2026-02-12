@@ -148,10 +148,28 @@ nav a:hover {
 
 /* === Rodapé === */
 footer {
-  margin-top: 6rem;
+  text-align: center;
   padding: 4rem 2rem;
-  background-color: #071116;
-  border-top: 1px solid #bfa76a;
+  background-color: #071116; /* Um pouco mais escuro que o corpo */
+  border-top: 1px solid rgba(191, 167, 106, 0.3); /* Linha sutil */
+  color: #8a9ea6; /* Cinza suave para o copyright */
   font-size: 0.85rem;
-  opacity: 0.8;
+  margin-top: 4rem;
+}
+
+footer a {
+  color: #c0a96f; 
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
+}
+
+footer p {
+  margin: 0.5rem 0;
 }
