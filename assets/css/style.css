@@ -127,6 +127,12 @@ nav a:hover {
   overflow: hidden;
 }
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* === Rodapé === */
 footer {
   margin-top: 6rem;
