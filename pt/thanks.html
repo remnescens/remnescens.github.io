@@ -20,6 +20,11 @@
   </header>
 
   <main>
+        
+    <section class="social">
+      <h2>Inscrição realizada com sucesso!</h2>
+    </section>
+
     <section class="social">
       <h2>Redes sociais</h2>
       <ul>
@@ -45,12 +50,30 @@
         <li><strong>Contato direto</strong> — <a href="mailto:contato@remnescens.com">contact@remnescens.com</a></li>
       </ul>
     </section>
-    
+
     <section class="subscription">
       <h2>Inscrição</h2>
       <p>Se você gosta de ficar sempre por dentro das novidades deixe seu contato conosco!</p>
-      <p>Inscrição realizada com sucesso!</p>
+      <iframe data-tally-src="https://tally.so/embed/xXaB9r?hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="null"></iframe>
+      <script>
+        var d=document
+        var w="https://tally.so/widgets/embed.js"
+        var v=function(){
+          "undefined"!=typeof Tally?Tally.loadEmbeds():
+          d.querySelectorAll("iframe[data-tally-src]:not([src])")
+           .forEach((function(e){e.src=e.dataset.tallySrc}))
+        };
+        if("undefined"!=typeof Tally)v();
+        else if(d.querySelector('script[src="'+w+'"]')==null){
+          var s=d.createElement("script");
+          s.src=w
+          s.onload=v
+          s.onerror=v
+          d.body.appendChild(s);
+        }
+      </script>
     </section>
+    
   </main>
 
   <footer>
