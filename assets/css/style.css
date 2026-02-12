@@ -69,7 +69,7 @@ header h1 {
 /* === Seções de Texto (About, Contact, etc) === */
 .about, .contact, .in_absentia, .privacy {
   max-width: 1000px;
-  margin: 4rem auto;
+  margin: 0.5rem auto;
   padding: 0.1rem;
   background-color: rgba(26, 46, 53, 0.5);
   border-left: 4px solid #bfa76a;
