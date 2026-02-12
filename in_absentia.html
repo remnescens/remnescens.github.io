@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remnescens</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+	  const userLang = navigator.language || navigator.userLanguage;
+	  if (userLang.startsWith("de")) { window.location.replace("/de/in_absentia.html"); }
+	  else if (userLang.startsWith("en")) { window.location.replace("/en/in_absentia.html"); }
+	  else if (userLang.startsWith("es")) { window.location.replace("/es/in_absentia.html"); }
+	  else if (userLang.startsWith("fr")) { window.location.replace("/fr/in_absentia.html"); }
+	  else if (userLang.startsWith("it")) { window.location.replace("/it/in_absentia.html"); }
+	  else if (userLang.startsWith("pl")) { window.location.replace("/pl/in_absentia.html"); }
+	  else if (userLang.startsWith("pt")) { window.location.replace("/pt/in_absentia.html"); } 
+	  else { window.location.replace("/en/in_absentia.html"); }
+	});
+  </script>
+</head>
+<body><noscript><header><nav><ul>
+  <li><a href="/de/in_absentia.html">Deutsch</a></li>
+  <li><a href="/en/in_absentia.html">English</a></li>
+  <li><a href="/es/in_absentia.html">Español</a></li>
+  <li><a href="/fr/in_absentia.html">Français</a></li>
+  <li><a href="/it/in_absentia.html">Italiano</a></li>
+  <li><a href="/pl/in_absentia.html">Polski</a></li>
+  <li><a href="/pt/in_absentia.html">Português</a></li>
+</ul></nav></header></noscript></body>
+</html>
