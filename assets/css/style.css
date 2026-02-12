@@ -75,7 +75,8 @@ main {
 .timeline,
 .privacy,
 .social,
-.presskit {
+.presskit,
+.subscription {
   padding: 4rem 2rem;
   background-color: #1a2e35;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -89,7 +90,8 @@ main {
 .timeline,
 .privacy,
 .social,
-.presskit {
+.presskit,
+.subscription  {
   max-width: 800px;
   margin: auto;
   border-left: 4px solid #bfa76a;
@@ -189,7 +191,8 @@ footer a:hover {
   .timeline,
   .privacy,
   .social,
-  .presskit {
+  .presskit,
+  .subscription {
     padding: 2rem 1rem;
   }
 
