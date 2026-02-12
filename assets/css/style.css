@@ -188,19 +188,12 @@ nav a:hover {
 
 /* === Vídeo === */
 
-.video-full-width {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 2rem; /* Respiro nas laterais para mobile */
-}
-
-/* Ajuste no container do vídeo para garantir que ele preencha a largura */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Mantém a proporção 16:9 */
+    width: 100%; /* Força a largura total do container pai */
     height: 0;
     overflow: hidden;
-    width: 100%; /* Força a largura total do container pai */
     margin: 3rem 0; 
     border: 1px solid #bfa76a;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
@@ -222,7 +215,7 @@ footer {
   border-top: 1px solid rgba(191, 167, 106, 0.3); /* Linha sutil */
   color: #8a9ea6; /* Cinza suave para o copyright */
   font-size: 0.85rem;
-  margin-top: 4rem;
+  margin-top: 0;
 }
 
 footer a {
