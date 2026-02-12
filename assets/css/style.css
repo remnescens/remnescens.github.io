@@ -70,7 +70,7 @@ header h1 {
 .about, .contact, .in_absentia, .privacy {
   max-width: 1000px;
   margin: 4rem auto;
-  padding: 2rem;
+  padding: 0.1rem;
   background-color: rgba(26, 46, 53, 0.5);
   border-left: 4px solid #bfa76a;
   box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
