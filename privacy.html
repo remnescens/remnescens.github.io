@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remnescens</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+	  const userLang = navigator.language || navigator.userLanguage;
+	  if (userLang.startsWith("de")) { window.location.replace("/de/privacy.html"); }
+	  else if (userLang.startsWith("en")) { window.location.replace("/en/privacy.html"); }
+	  else if (userLang.startsWith("es")) { window.location.replace("/es/privacy.html"); }
+	  else if (userLang.startsWith("fr")) { window.location.replace("/fr/privacy.html"); }
+	  else if (userLang.startsWith("it")) { window.location.replace("/it/privacy.html"); }
+	  else if (userLang.startsWith("pl")) { window.location.replace("/pl/privacy.html"); }
+	  else if (userLang.startsWith("pt")) { window.location.replace("/pt/privacy.html"); } 
+	  else { window.location.replace("/en/privacy.html"); }
+	});
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>
+	  <a href="/de/privacy.html">Deutsch</a> | 
+	  <a href="/en/privacy.html">English</a> | 
+	  <a href="/es/privacy.html">Español</a> | 
+	  <a href="/fr/privacy.html">Français</a> | 
+	  <a href="/it/privacy.html">Italiano</a> | 
+	  <a href="/pl/privacy.html">Polski</a> | 
+	  <a href="/pt/privacy.html">Português</a>
+	</p>
+  </noscript>
+</body>
+</html>

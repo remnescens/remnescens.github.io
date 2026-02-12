@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remnescens</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+	  const userLang = navigator.language || navigator.userLanguage;
+	  if (userLang.startsWith("de")) { window.location.replace("/de/contact.html"); }
+	  else if (userLang.startsWith("en")) { window.location.replace("/en/contact.html"); }
+	  else if (userLang.startsWith("es")) { window.location.replace("/es/contact.html"); }
+	  else if (userLang.startsWith("fr")) { window.location.replace("/fr/contact.html"); }
+	  else if (userLang.startsWith("it")) { window.location.replace("/it/contact.html"); }
+	  else if (userLang.startsWith("pl")) { window.location.replace("/pl/contact.html"); }
+	  else if (userLang.startsWith("pt")) { window.location.replace("/pt/contact.html"); } 
+	  else { window.location.replace("/en/contact.html"); }
+	});
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>
+	  <a href="/de/contact.html">Deutsch</a> | 
+	  <a href="/en/contact.html">English</a> | 
+	  <a href="/es/contact.html">Español</a> | 
+	  <a href="/fr/contact.html">Français</a> | 
+	  <a href="/it/contact.html">Italiano</a> | 
+	  <a href="/pl/contact.html">Polski</a> | 
+	  <a href="/pt/contact.html">Português</a>
+	</p>
+  </noscript>
+</body>
+</html>
