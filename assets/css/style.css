@@ -82,6 +82,31 @@ header h1 {
   box-shadow: 0 0 20px rgba(102, 192, 244, 0.4);
 }
 
+@media (max-width: 768px) {
+  /* Força a seção a ignorar bordas laterais e centralizar conteúdo */
+  .steam-cta {
+    border-left: none !important; /* Remove a borda lateral que empurra o conteúdo */
+    text-align: center !important;
+    padding: 3rem 1.5rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steam-button {
+    width: 90%; /* Dá um leve respiro nas bordas do celular */
+    max-width: 400px;
+    margin: 1.5rem auto 0 auto !important;
+    display: block;
+  }
+  
+  .steam-cta p {
+    margin: 1rem auto;
+    max-width: 280px; /* Evita que o texto encoste nas bordas */
+  }
+}
+
 /* Estilização para o texto em itálico (Diálogos/Citações) */
 em {
   color: #bfa76a;
