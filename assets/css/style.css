@@ -97,15 +97,15 @@ header h1 {
   }
 
   .steam-button {
-    width: 90%; /* Dá um leve respiro nas bordas do celular */
-    max-width: 400px;
+    width: 75%;
+    max-width: 360px;
     margin: 1.5rem auto 0 auto !important;
     display: block;
   }
   
   .steam-cta p {
     margin: 1rem auto;
-    max-width: 280px; /* Evita que o texto encoste nas bordas */
+    max-width: 240px;
   }
 }
 
