@@ -202,7 +202,9 @@ nav a:hover {
 @media (max-width: 768px) {
   
     .video-container {
+        padding-bottom: 45%; /* Mantém a proporção 16:9 */
         width: 80%;
+        margin-left: 10%;
     }
 }
 
