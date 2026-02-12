@@ -120,11 +120,21 @@ nav a:hover {
 }
 
 /* === Vídeo === */
-.video-container {
+/* .video-container {
   margin: 3rem 0;
   border: 1px solid #bfa76a;
   border-radius: 4px;
   overflow: hidden;
+} */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .video-container iframe {
