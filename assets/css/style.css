@@ -79,10 +79,9 @@ header h1 {
 
 .contact iframe {
   margin: 0 -2rem !important;
-  background: linear-gradient(to bottom, rgba(26, 46, 53, 0.5), transparent);
 }
   
-.tally-powered, ::after {
+.tally-powered div {
   visibility: hidden !important;
 }
 
