@@ -85,6 +85,17 @@ header h1 {
   visibility: hidden !important;
 }
 
+.contact ul li a {
+    color: #bfa76a;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact ul li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
+}
+
 /* Efeito de entrada suave para as seções */
 
 @keyframes fadeIn {
