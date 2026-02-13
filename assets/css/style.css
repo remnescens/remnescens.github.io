@@ -78,7 +78,27 @@ header h1 {
 }
 
 .contact iframe {
-    padding: 0 !important;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background: linear-gradient(to bottom, rgba(26, 46, 53, 0.5), transparent);
+}
+
+@media (max-width: 768px) {
+  /* Força a seção a ignorar bordas laterais e centralizar conteúdo */
+  .contact iframe {
+    border-left: none !important;
+    text-align: center !important;
+    padding: 3rem 1.5rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+  
+.tally-powered {
+    visibility: hidden !important;
 }
 
 /* Efeito de entrada suave para as seções */
