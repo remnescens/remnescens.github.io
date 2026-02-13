@@ -77,23 +77,19 @@ header h1 {
   animation: fadeIn 1.2s ease-out;
 }
 
-.contact iframe {
-  margin: 0 -2rem !important;
-}
-  
-.contact ul li a {
+.contact, .privacy ul li a {
     color: #bfa76a;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.contact ul li a:hover {
+.contact, .privacy ul li a:hover {
     color: #ffffff;
     text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
 }
 
-.fjwRyK {
-  visibility: hidden !important;
+.contact iframe {
+  margin: 0 -2rem !important;
 }
 
 /* Efeito de entrada suave para as seções */
