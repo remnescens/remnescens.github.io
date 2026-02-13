@@ -34,7 +34,7 @@ header h1 {
 
 /* === Hero Section (O Impacto Visual) === */
 .hero {
-  height: 91vh;
+  height: 91.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
