@@ -186,6 +186,10 @@ nav a:hover {
   box-shadow: 0 8px 25px rgba(191, 167, 106, 0.3);
 }
 
+.form {
+    align-items: left !important;
+}
+
 /* === Vídeo === */
 
 .video-container {
