@@ -77,6 +77,21 @@ header h1 {
   animation: fadeIn 1.2s ease-out;
 }
 
+.contact iframe {
+  margin: 0 -2rem !important;
+}
+
+.contact ul li a {
+  color: #bfa76a;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact ul li a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
+}
+
 .in_absentia h1 {
   text-align: center;
   font-family: "Garamond", "Times New Roman", serif;
@@ -99,8 +114,15 @@ header h1 {
   text-shadow: 0 0 6px rgba(191, 167, 106, 0.4);
 }
 
-.contact iframe {
-  margin: 0 -2rem !important;
+.privacy a {
+  color: #bfa76a;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.privacy a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
 }
 
 /* Efeito de entrada suave para as seções */
@@ -230,18 +252,6 @@ nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-/* === Links === */
-ul li a {
-  color: #bfa76a;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-ul li a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
 }
 
 /* === Rodapé === */
