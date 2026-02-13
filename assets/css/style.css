@@ -81,10 +81,6 @@ header h1 {
   margin: 0 -2rem !important;
 }
   
-div > .tally-powered {
-  visibility: hidden !important;
-}
-
 .contact ul li a {
     color: #bfa76a;
     text-decoration: none;
@@ -94,6 +90,10 @@ div > .tally-powered {
 .contact ul li a:hover {
     color: #ffffff;
     text-shadow: 0 0 10px rgba(191, 167, 106, 0.5);
+}
+
+ form > div:nth-child(2) > div:nth-child(2) {
+  visibility: hidden !important;
 }
 
 /* Efeito de entrada suave para as seções */
