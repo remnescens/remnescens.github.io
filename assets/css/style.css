@@ -34,7 +34,7 @@ header h1 {
 
 /* === Hero Section (O Impacto Visual) === */
 .hero {
-  height: 92vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,6 +69,7 @@ header h1 {
 /* === Seções de Texto (About, Contact, etc) === */
 .about, .contact, .in_absentia, .privacy {
   max-width: 1000px;
+  height: 90vh;
   margin: 0.5rem auto;
   padding: 0.1rem 2rem;
   background-color: rgba(26, 46, 53, 0.5);
