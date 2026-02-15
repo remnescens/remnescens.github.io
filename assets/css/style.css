@@ -16,11 +16,14 @@ body {
 /* Para idiomas asiáticos, priorizamos fontes que suportam ideogramas sem perder a elegância */
 body:lang(ja), body:lang(zh), body:lang(ko) {
   font-family: "Noto Sans CJK SC", "Source Han Sans", sans-serif;
+  font-size: 0.95rem;     /* Redução sutil para compensar o peso dos ideogramas */
+  letter-spacing: 0.05em; /* Um pouco mais de "ar" entre os caracteres */
 }
 
 /* Para cirílico (Russo/Ucraniano), caso a Inter que você carregue não tenha o subset completo */
 body:lang(ru), body:lang(uk) {
   font-family: 'Inter', "Segoe UI", Roboto, sans-serif;
+  hyphens: auto; /* Ajuda a evitar espaços vazios (buracos) em textos justificados ou longos */
 }
 
 /* === Cabeçalho (Sticky & Glassmorphism) === */
