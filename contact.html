@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Remnescens</title>
+  <link rel="alternate" hreflang="de" href="https://remnescens.com/de/contact" />
+  <link rel="alternate" hreflang="en" href="https://remnescens.com/en/contact" />
+  <link rel="alternate" hreflang="es" href="https://remnescens.com/es/contact" />
+  <link rel="alternate" hreflang="fr" href="https://remnescens.com/fr/contact" />
+  <link rel="alternate" hreflang="it" href="https://remnescens.com/it/contact" />
+  <link rel="alternate" hreflang="ja" href="https://remnescens.com/ja/contact" />
+  <link rel="alternate" hreflang="ko" href="https://remnescens.com/ko/contact" />
+  <link rel="alternate" hreflang="nl" href="https://remnescens.com/nl/contact" />
+  <link rel="alternate" hreflang="pl" href="https://remnescens.com/pl/contact" />
+  <link rel="alternate" hreflang="pt" href="https://remnescens.com/pt/contact" />
+  <link rel="alternate" hreflang="ru" href="https://remnescens.com/ru/contact" />
+  <link rel="alternate" hreflang="tr" href="https://remnescens.com/tr/contact" />
+  <link rel="alternate" hreflang="uk" href="https://remnescens.com/uk/contact" />
+  <link rel="alternate" hreflang="zh" href="https://remnescens.com/zh/contact" />
+  <link rel="alternate" hreflang="x-default" href="https://remnescens.com/contact" />
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer>
@@ -14,19 +29,58 @@
 	  else if (userLang.startsWith("es")) { window.location.replace("/es/contact"); }
 	  else if (userLang.startsWith("fr")) { window.location.replace("/fr/contact"); }
 	  else if (userLang.startsWith("it")) { window.location.replace("/it/contact"); }
+	  else if (userLang.startsWith("ja")) { window.location.replace("/ja/contact"); }
+	  else if (userLang.startsWith("ko")) { window.location.replace("/ko/contact"); }
+	  else if (userLang.startsWith("nl")) { window.location.replace("/nl/contact"); }
 	  else if (userLang.startsWith("pl")) { window.location.replace("/pl/contact"); }
 	  else if (userLang.startsWith("pt")) { window.location.replace("/pt/contact"); } 
+	  else if (userLang.startsWith("ru")) { window.location.replace("/ru/contact"); } 
+	  else if (userLang.startsWith("tr")) { window.location.replace("/tr/contact"); } 
+	  else if (userLang.startsWith("uk")) { window.location.replace("/uk/contact"); } 
+	  else if (userLang.startsWith("zh")) { window.location.replace("/zh/contact"); } 
 	  else { window.location.replace("/en/contact"); }
 	});
   </script>
 </head>
-<body><noscript><header><nav><ul>
-  <li><a href="/de/contact">Deutsch</a></li>
-  <li><a href="/en/contact">English</a></li>
-  <li><a href="/es/contact">Español</a></li>
-  <li><a href="/fr/contact">Français</a></li>
-  <li><a href="/it/contact">Italiano</a></li>
-  <li><a href="/pl/contact">Polski</a></li>
-  <li><a href="/pt/contact">Português</a></li>
-</ul></nav></header></noscript></body>
+<body style="margin: 0; background: #071116; display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden;">
+  <div id="loading-container" style="text-align: center; animation: fadeInOut 2s infinite ease-in-out;">
+    <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="45" stroke="#bfa76a" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+      <path d="M50 20V30M50 70V80M20 50H30M70 50H80" stroke="#bfa76a" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="50" cy="50" r="12" stroke="#bfa76a" stroke-width="2">
+        <animate attributeName="r" values="10;13;10" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <path d="M35 50C35 50 42 38 50 38C58 38 65 50 65 50C65 50 58 62 50 62C42 62 35 50 35 50Z" stroke="#bfa76a" stroke-width="1.5" opacity="0.6"/>
+    </svg>
+    <p style="color: #bfa76a; font-family: 'Garamond', serif; letter-spacing: 3px; font-size: 0.8rem; margin-top: 15px; text-transform: uppercase; opacity: 0.5;">Remnescens</p>
+  </div>
+  <style>
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0.3; transform: scale(0.98); }
+      50% { opacity: 0.8; transform: scale(1); }
+    }
+  </style>
+  <noscript>
+    <header style="position: absolute; top: 10%; width: 100%; text-align: center;">
+      <nav>
+        <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+		  <li><a href="/de/contact" style="color: #bfa76a; text-decoration: none;">Deutsch</a></li>
+		  <li><a href="/en/contact" style="color: #bfa76a; text-decoration: none;">English</a></li>
+		  <li><a href="/es/contact" style="color: #bfa76a; text-decoration: none;">Español</a></li>
+		  <li><a href="/fr/contact" style="color: #bfa76a; text-decoration: none;">Français</a></li>
+		  <li><a href="/it/contact" style="color: #bfa76a; text-decoration: none;">Italiano</a></li>
+		  <li><a href="/ja/contact" style="color: #bfa76a; text-decoration: none;">日本語</a></li>
+		  <li><a href="/ko/contact" style="color: #bfa76a; text-decoration: none;">한국인</a></li>
+		  <li><a href="/nl/contact" style="color: #bfa76a; text-decoration: none;">Nederlands</a></li>
+		  <li><a href="/pl/contact" style="color: #bfa76a; text-decoration: none;">Polski</a></li>
+		  <li><a href="/pt/contact" style="color: #bfa76a; text-decoration: none;">Português</a></li>
+		  <li><a href="/ru/contact" style="color: #bfa76a; text-decoration: none;">Русский</a></li>
+		  <li><a href="/tr/contact" style="color: #bfa76a; text-decoration: none;">Türkçe</a></li>
+		  <li><a href="/uk/contact" style="color: #bfa76a; text-decoration: none;">українська</a></li>
+		  <li><a href="/zh/contact" style="color: #bfa76a; text-decoration: none;">简体中文</a></li> 
+        </ul>
+      </nav>
+    </header>
+  </noscript>
+</body>
 </html>
