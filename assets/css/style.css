@@ -32,6 +32,8 @@ body:lang(ru), body:lang(uk) {
   hyphens: auto; /* Ajuda a evitar espaços vazios (buracos) em textos justificados ou longos */
 }
 
+html { scroll-behavior: smooth; }
+
 /* === Cabeçalho (Sticky & Glassmorphism) === */
 header {
   position: sticky;
